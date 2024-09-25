@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CountUp Example</title>
+    <script src="countup.js" defer></script>
+  </head>
+  <body>
+    <span data-countup data-countup-number="1000" data-countup-duration="3000" data-countup-easing="ease-out">0</span>
+    <span data-countup data-countup-number="500" data-countup-duration="2000" data-countup-easing="ease-in-out">0</span>
+    <span data-countup data-countup-number="200" data-countup-duration="1500" data-countup-easing="linear">0</span>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", countUp);
+    </script>
+  </body>
+</html>
