@@ -166,6 +166,15 @@ To use the `countUp` function, add elements with the `data-countup` attribute to
 <span data-countup data-countup-number="200" data-countup-duration="1500" data-countup-easing="linear">0</span>
 ```
 
+### Astro Integration
+```jsx
+<script>
+  import { countUp } from "@/lib/utils/countup";
+
+  document.addEventListener("astro:page-load", countUp);
+</script>
+```
+
 Attributes
 Each element that uses the data-countup attribute should include the following:
 
